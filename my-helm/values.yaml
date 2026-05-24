@@ -9,6 +9,6 @@ namespace: default
 
 # --- CONFIGMAP CONFIG ---
 configMap:
-  name: helmappconfigmapv1.1
+  name: helmappconfigmapv1.2
   data:
-    customHeader: "Welcome to My Helm Web App"
+    customHeader: "Welcome to My COOL Web App"
