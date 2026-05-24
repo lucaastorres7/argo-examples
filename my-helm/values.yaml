@@ -1,0 +1,14 @@
+# --- DEPLOYMENT CONFIG ---
+appName: myhelmapp
+image:
+  repository: devopsjourney1/mywebapp
+  tag: latest
+
+# --- GENERAL CONFIG ---
+namespace: default
+
+# --- CONFIGMAP CONFIG ---
+configMap:
+  name: helmappconfigmapv1.1
+  data:
+    customHeader: "Welcome to My Helm Web App"
